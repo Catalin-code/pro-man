@@ -1,6 +1,5 @@
 from flask import Flask, render_template, url_for, jsonify
 from util import json_response
-
 import data_handler
 import data_manager
 
@@ -39,7 +38,6 @@ def get_cards():
 @json_response
 def add_card(board_id,title):
     return data_manager.create_card(board_id,title)
-
 
 
 def main():

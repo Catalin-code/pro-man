@@ -12,7 +12,7 @@ def get_connection_string():
     user_name = 'catalin'
     password = '123456'
     host = 'localhost'
-    database_name = 'proman'
+    database_name = 'pro_man'
 
     env_variables_defined = user_name and password and host and database_name
 
